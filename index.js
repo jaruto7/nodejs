@@ -35,7 +35,7 @@ process.stdin.on( 'readable', function() {
             case '/sayhello':
                 process.stdout.write( 'hello!\n' );
                 break;
-            case '/getOSinfo':
+            case '/g':
                 OSinfo.print();
                 break;    
             // W przeciwnym razie gdy uzytkownik wpisal zla wartosc, wyswietl komunikat o bledzie
